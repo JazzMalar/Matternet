@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Markus Schenk</Authors>
+    <Platforms>AnyCPU;x64</Platforms>
+    <Version>1.2.5</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <UserSecretsId>d8dbdff4-17d6-4cae-8874-391a959fefd1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+  </ItemGroup>
+
+</Project>
